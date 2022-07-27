@@ -1,0 +1,237 @@
+.example-card {
+    max-width: 65%;
+    background-color: #F7E4E9;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.imggirl {
+    margin-top: -26.2%;
+    margin-left: 44%;
+    width: 47%;
+
+}
+
+.cardTitle {
+    color: #f55f53;
+    margin-top: 3% !important;
+    margin-left: 3%;
+}
+
+.text1 {
+    margin-top: 3% !important;
+    margin-left: 3%;
+
+    font-size: 12px;
+    color: gray;
+}
+
+.text {
+    margin-left: 3%;
+    font-size: 12px;
+    color: gray;
+}
+
+.dashboard {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+
+.split {
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.split2 {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #F5F5FA;
+}
+
+.right {
+    right: 0;
+    background-color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.logout-card {
+    margin-top: 10%;
+}
+
+.user {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 25%;
+}
+
+.one {
+    background-image: url('../../assets/user_image.png');
+}
+
+.titelSub {
+    font-size: smaller
+}
+
+.text {
+    display: inline-block;
+
+}
+
+mat-progress-bar {
+    display: inline-block;
+    margin-left: 9%;
+}
+
+
+/* 
+
+  ::ng-deep .mat-progress-bar-fill::after {
+    background-color: red;
+} */
+
+
+.redcolor ::ng-deep .mat-checkbox-layout {
+    background-color: red;
+}
+
+.course_eng {
+    width: 80%;
+}
+
+.bgCourse1 {
+    background-color: #3c42c2;
+
+}
+
+.bgCourse2 {
+    background-color: #a8acf7;
+}
+
+.bgCourse3 {
+    background-color: #ec9a95;
+}
+
+.textCourse {
+    margin-top: 3% !important;
+    margin-left: 3%;
+
+    font-size: 12px;
+    color: white;
+    opacity: 0.6;
+    margin-left: 20%;
+}
+
+.cardTitleCourse {
+    font-size: 14px;
+    color: white;
+    margin-left: 3%;
+    margin-left: 20%;
+}
+
+.mat-card-title:not(:first-child),
+.mat-card-subtitle:not(:first-child) {
+    margin-top: -10px;
+}
+
+.iconCourse1 {
+    font-size: smaller;
+    border-radius: 4px;
+    background: #5d62ba;
+    font-weight: bold;
+    text-align: center;
+    height: 34px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 5% !important;
+    color: white;
+}
+.iconCourse2 {
+    font-size: smaller;
+    border-radius: 4px;
+    background: #7276bb;
+    font-weight: bold;
+    text-align: center;
+    height: 34px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 5% !important;
+    color: white;
+}
+.iconCourse3 {
+    font-size: smaller;
+    border-radius: 4px;
+    background: #eaaea9;;
+    font-weight: bold;
+    text-align: center;
+    height: 34px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 5% !important;
+    color: white;
+}
+
+.iconCourseSide{
+    font-size: smaller;
+    border-radius: 4px;
+    background: #cbcbcb;;
+    font-weight: bold;
+    text-align: center;
+    height: 34px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 5% !important;
+   
+}
+
+.cardTitleCourseSide {
+    font-size: 12px;
+
+    margin-left: 3%;
+    margin-left: 20%;
+    opacity: 0.6;
+}
+
+.textCourseSide {
+    margin-top: 3% !important;
+    margin-left: 3%;
+
+    font-size: 13px;
+  
+   
+    margin-left: 20%;
+}

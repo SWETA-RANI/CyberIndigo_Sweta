@@ -1,0 +1,216 @@
+<div class="split left">
+    <div class="dashboard">Dashboard</div>
+    <div class="row">
+        <div class="col-md-12">
+            <mat-card class="example-card">
+
+                <mat-card-title class="cardTitle">Welcome Back Anna!</mat-card-title>
+                <mat-card-content>
+                    <p class="text1">You've learned <span style="font-weight:bold">80%</span> of your goal this week!
+                    </p>
+                    <p class="text">Keep it up and improve your results!</p>
+                    <img class="imggirl" src="../../assets/girlpic.png" />
+
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+
+
+
+
+    <div class="row" style="margin-top: 2%; ">
+        <div class="col-md-3" style="margin-left: 4%;">
+            <mat-card>
+                <mat-list>
+                    <div mat-subheader>Reminders</div>
+                    <mat-list-item>
+                        <div style="font-size: 12px;font-weight: bold;" mat-line>Unit 5 - <span
+                                style="font-size: 11px;color: lightgrey;">Technology</span><span class="redcolor">
+                                <mat-progress-bar style="background-color: yellow;" mode="determinate" value="25">40%
+                                </mat-progress-bar>
+                            </span></div>
+
+                    </mat-list-item>
+
+
+                    <mat-list-item>
+                        <div style="font-size: 12px;font-weight: bold;" mat-line>Unit 12 - <span
+                                style="font-size: 11px;color: lightgrey;width: 10px;">Ecology <mat-progress-bar
+                                    mode="determinate" value="44"></mat-progress-bar></span></div>
+                    </mat-list-item>
+
+                    <mat-list-item>
+                        <div style="font-size: 12px;font-weight: bold;" mat-line>Unit 9 - <span
+                                style="font-size: 11px;color: lightgrey;">Real estate</span><span>
+                                <mat-progress-bar mode="determinate" value="40">40%</mat-progress-bar>
+                            </span></div>
+                    </mat-list-item>
+
+                    <mat-list-item>
+                        <div style="font-size: 12px;font-weight: bold;" mat-line>Unit 8 - <span
+                                style="font-size: 11px;color: lightgrey;">Education</span><span>
+                                <mat-progress-bar mode="determinate" value="15">40%</mat-progress-bar>
+                            </span></div>
+                    </mat-list-item>
+
+                    <mat-list-item>
+                        <div style="font-size: 12px;font-weight: bold;" mat-line>Unit 16 - <span
+                                style="font-size: 11px;color: lightgrey;">Job market</span><span>
+                                <mat-progress-bar mode="determinate" value="76">40%</mat-progress-bar>
+                            </span></div>
+                    </mat-list-item>
+                </mat-list>
+            </mat-card>
+
+
+        </div>
+        <div class="col-md-5">
+            <mat-card>
+
+                <div mat-subheader>Time spent on learning</div>
+                <canvas baseChart [data]="barChartData" [options]="barChartOptions" [plugins]="barChartPlugins"
+                    [type]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+                </canvas>
+            </mat-card>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="dashboard" style="margin-top: 1%;margin-bottom: 2%">Your Courses</div>
+
+    <div class="row" style="margin-bottom: 4%">
+
+        <div class="col-md-3" style="margin-left: 4%">
+            <mat-card class="bgCourse1">
+                <div  class="iconCourse1" mat-line>B2</div>
+                <mat-card-content>
+
+                    <p class="textCourse">Business English </p>
+                </mat-card-content>
+
+                <mat-card-title class="cardTitleCourse">Grammar </mat-card-title>
+            </mat-card>
+        </div>
+        <div class="col-md-3">
+            <mat-card class="bgCourse2">
+                <div  class="iconCourse2" mat-line>B2</div>
+                <mat-card-content>
+                    <p class="textCourse">Common English </p>
+                </mat-card-content>
+
+                <mat-card-title class="cardTitleCourse">Phrasal verbs</mat-card-title>
+
+
+            </mat-card>
+        </div>
+        <div class="col-md-3">
+            <mat-card class="course_eng bgCourse3">
+                <div  class="iconCourse3" mat-line>C1</div>
+                <mat-card-content>
+                    <p class="textCourse"> Business Spanish</p>
+                </mat-card-content>
+                <mat-card-title class="cardTitleCourse">Vocabulary </mat-card-title>
+
+
+            </mat-card>
+        </div>
+    </div>
+
+</div>
+
+<div class="split2 right">
+
+    <div class="row">
+        <div class="col-md-12" style="margin-left: 4%;margin-top: 18%;">
+
+            <h4>Logout</h4>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="user one">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" style="text-align:center">
+
+            <h2>Anna Morrison</h2>
+            <p>Student</p>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+      
+        <div class="col-md-12" style="margin-left: 4%">
+            <mat-card >
+                <div  class="iconCourseSide" mat-line>B2</div>
+                <mat-card-content>
+
+                    <p class="textCourseSide">English </p>
+                </mat-card-content>
+
+                <mat-card-title class="cardTitleCourseSide">High Intermediate </mat-card-title>
+            </mat-card>
+        </div>
+
+        <div class="col-md-12" style="margin-left: 4%;">
+            <mat-card>
+                <div  class="iconCourseSide" mat-line>C1</div>
+                <mat-card-content>
+
+                    <p class="textCourseSide">Spanish </p>
+                </mat-card-content>
+
+                <mat-card-title class="cardTitleCourseSide">Advanced </mat-card-title>
+            </mat-card>
+        </div>
+       
+      
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-12" style="margin-left: 4%;">
+
+            <mat-list>
+                <div mat-subheader>Reminders</div>
+                <mat-list-item>
+                    <mat-icon mat-list-icon>error</mat-icon>
+                    <div style="font-size: smaller;" mat-line>Eng - Vocabulary test</div>
+                    <div mat-line style="font-size: x-small;"> 24 Sep 2019, Friday </div>
+                </mat-list-item>
+
+
+                <mat-list-item>
+                    <mat-icon mat-list-icon>email</mat-icon>
+                    <div mat-line style="font-size: smaller;">Eng - Send grammar homework</div>
+                    <div mat-line style="font-size: x-small;"> 29 Sep 2019, Wednesay </div>
+                </mat-list-item>
+
+                <mat-list-item>
+                    <mat-icon mat-list-icon>email</mat-icon>
+                    <div mat-line style="font-size: smaller;">Spanish - Send essey</div>
+                    <div mat-line style="font-size: x-small;">05 Oct 2019. Mondav </div>
+                </mat-list-item>
+            </mat-list>
+
+        </div>
+    </div>
+
+
+</div>

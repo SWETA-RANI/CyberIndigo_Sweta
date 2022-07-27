@@ -1,0 +1,33 @@
+<mat-nav-list style="width: 230px;">
+    <div class="logo py-2" (click)="toggleSidebar()">
+      <img class="logoImg" src="../../assets/logo.png" alt="Company Logo"  />
+  
+    </div>
+    <div style='margin-left:60px;'>
+        <h4>Logo</h4>
+        </div>
+    <mat-divider style="margin-top: 30%;"></mat-divider>
+   
+  
+ 
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Dashboard">
+      <mat-icon>dashboard</mat-icon> Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Classes">
+        <mat-icon>folder_open</mat-icon> Classes
+      </a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/Resources">
+        <mat-icon>book</mat-icon> Resources
+      </a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/Learing_Plan">
+        <mat-icon>edit_calendar</mat-icon> Learning Plan
+      </a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/Chat">
+        <mat-icon>chat_outline</mat-icon> Chat
+      </a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/Settings">
+        <mat-icon>settings</mat-icon> Setting
+      </a>
+  
+  </mat-nav-list>
+  
